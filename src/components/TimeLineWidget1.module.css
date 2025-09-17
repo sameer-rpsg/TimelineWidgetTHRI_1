@@ -20,7 +20,7 @@
 .about_horizontal_container {
   z-index: 5;
   height: 100%;
-  padding: 4rem 5vw !important;
+  padding: 5rem 5vw !important;
   position: relative;
 }
 .about_horizontal_slide {
@@ -36,7 +36,7 @@
 .about_timeline_heading {
   margin-bottom: 0;
   font-family: miller-headline, serif !important;
-  font-size: 11rem !important;
+  font-size: 5rem !important;
   line-height: 1em;
   white-space: nowrap;
   word-break: keep-all;
@@ -220,7 +220,7 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding: 2rem 0;
+    padding: 2rem 0 !important;
   }
   .about_horizontal_slide {
     grid-column-gap: 2rem;
@@ -311,7 +311,7 @@
     align-items: flex-start;
   }
   .about_timeline_heading {
-    font-size: 4rem;
+    font-size: 1.5rem !important;
   }
   .about_progress_wrapper {
     display: none;
