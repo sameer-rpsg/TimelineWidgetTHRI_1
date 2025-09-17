@@ -1,11 +1,13 @@
 .horizontal {
   width: max-content;
-  /* height: 100vh; */
+  height: 100vh;
   position: relative;
   overflow: clip;
   /* margin-left: 0 !important;
   margin-right: 0 !important; */
   overflow: hidden;
+  /* height: 100% !important;
+    min-height: 100%; */
 }
 .horizontal_wrapper {
   width: inherit;
@@ -18,7 +20,7 @@
 .about_horizontal_container {
   z-index: 5;
   height: 100%;
-  padding: 4rem 5vw;
+  padding: 4rem 5vw !important;
   position: relative;
 }
 .about_horizontal_slide {
@@ -34,7 +36,7 @@
 .about_timeline_heading {
   margin-bottom: 0;
   font-family: miller-headline, serif !important;
-  font-size: 5rem !important;
+  font-size: 11rem !important;
   line-height: 1em;
   white-space: nowrap;
   word-break: keep-all;
