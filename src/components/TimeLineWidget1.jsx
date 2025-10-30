@@ -165,7 +165,6 @@ const TimeLineWidget1 = () => {
 
   return (
     <div className={`${styles.horizontal} ${styles.is_about}`}>
-      {/* <div className={styles.horizontalInner}> */}
       <div className={`${styles.horizontal_wrapper} ${styles.is_about}`}>
         {timelineData1.map((item, index) => (
           <section
@@ -176,20 +175,19 @@ const TimeLineWidget1 = () => {
           >
             <div className={styles.about_horizontal_container}>
               <div className={styles.about_horizontal_slide}>
-                <div className={styles.about_horizontal_progress}>
+                  <div className={`${styles.about_horizontal_progress} ${styles.firstProgessIndicator}`}>
                     <div className={styles.about_progress_circle_wrapper}>
                       <div className={styles.about_progress_circle} />
                     </div>
                   </div>
-                <div className={styles.about_timeline_heading_wrapper}>
+                <div className={styles.about_horizontal_info}>
+                <div className={`${styles.about_timeline_heading_wrapper} ${styles.is_section_1}`}>
                   <h2 className={styles.about_timeline_heading}>
-                    Accommodation
+                    Badrinath Ki Dulhania (2017)
                   </h2>
                   {/* <div className={styles.yearago}>{item.subtitle}</div> */}
                 </div>
-                  
-                <div className={styles.about_horizontal_info}>
-                  <div className={styles.u_hide_tablet}></div>
+                  {/* <div className={styles.u_hide_tablet}></div> */}
                   <div className={styles.about_horizontal_text}>
                     <h3
                       className={`${styles.u_text_style_h4} ${styles.u_mb_5}`}
@@ -288,22 +286,21 @@ const TimeLineWidget1 = () => {
           >
             <div className={styles.about_horizontal_container}>
               <div className={styles.about_horizontal_slide}>
-                <div className={styles.about_horizontal_progress}>
-                    <div className={styles.about_progress_circle_wrapper}>
-                      <div className={styles.about_progress_circle} />
+                    <div className={styles.about_horizontal_progress}>
+                      <div className={styles.about_progress_circle_wrapper}>
+                        <div className={styles.about_progress_circle} />
+                      </div>
                     </div>
-                  </div>
                 <div className={styles.about_horizontal_info}>
                   <div
                     className={`${styles.about_timeline_heading_wrapper} ${styles.is_section_2}`}
                   >
-                    <h2 className={styles.about_timeline_heading}>Dining</h2>
+                    <h2 className={styles.about_timeline_heading}>Rocky Aur Rani Kii Prem Kahaani (2023)</h2>
                     {/* <div className={styles.yearago}>
                      
                       CENTURY
                     </div> */}
                   </div>
-                  
                   <div className={styles.about_horizontal_text}>
                     <h3
                       className={`${styles.u_text_style_h4} ${styles.u_mb_5}`}
@@ -374,7 +371,7 @@ const TimeLineWidget1 = () => {
           >
             <div className={styles.about_horizontal_container}>
               <div className={styles.about_horizontal_slide}>
-                <div className={styles.about_horizontal_progress}>
+                  <div className={styles.about_horizontal_progress}>
                     <div className={styles.about_progress_circle_wrapper}>
                       <div className={styles.about_progress_circle} />
                     </div>
@@ -386,7 +383,6 @@ const TimeLineWidget1 = () => {
                     <h2 className={styles.about_timeline_heading}>Wellness</h2>
                     {/* <div className={styles.yearago}>CENTURY</div> */}
                   </div>
-                  
                   <div className={styles.about_horizontal_text}>
                     <h3
                       className={`${styles.u_text_style_h4} ${styles.u_mb_5}`}
@@ -453,7 +449,7 @@ const TimeLineWidget1 = () => {
           >
             <div className={styles.about_horizontal_container}>
               <div className={styles.about_horizontal_slide}>
-                <div className={styles.about_horizontal_progress}>
+                  <div className={styles.about_horizontal_progress}>
                     <div className={styles.about_progress_circle_wrapper}>
                       <div className={styles.about_progress_circle} />
                     </div>
@@ -465,7 +461,6 @@ const TimeLineWidget1 = () => {
                     <h2 className={styles.about_timeline_heading}>Events</h2>
                     {/* <div className={styles.yearago}>CENTURY</div> */}
                   </div>
-                  
                   <div className={styles.about_horizontal_text}>
                     <h3
                       className={`${styles.u_text_style_h4} ${styles.u_mb_5}`}
@@ -544,7 +539,6 @@ const TimeLineWidget1 = () => {
           </section>
         ))}
       </div>
-      {/* </div> */}
     </div>
   );
 };

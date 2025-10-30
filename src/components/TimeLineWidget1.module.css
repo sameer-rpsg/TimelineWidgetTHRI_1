@@ -6,8 +6,6 @@
   /* margin-left: 0 !important;
   margin-right: 0 !important; */
   overflow: hidden;
-  /* height: 100% !important;
-    min-height: 100%; */
 }
 .horizontal_wrapper {
   width: inherit;
@@ -30,13 +28,13 @@
   display: flex;
 }
 .about_timeline_heading_wrapper {
-  flex-flow: column;
+  /* flex-flow: column; */
+  flex-flow: column-reverse;
   display: flex;
 }
 .about_timeline_heading {
   margin-bottom: 0;
-  font-family: miller-headline, serif !important;
-  font-size: 5rem !important;
+  font-size: 2rem !important;
   line-height: 1em;
   white-space: nowrap;
   word-break: keep-all;
@@ -56,11 +54,17 @@
   height: 100%;
   margin-left: 5rem;
   display: grid;
+  font-family: kepler-std, serif !important;
 }
 .about_horizontal_progress {
   place-content: center flex-start;
   align-items: center;
   display: flex;
+  transform: translateX(-650%);
+}
+.firstProgessIndicator:first-child{
+  transform: translateX(0%);
+
 }
 .about_progress_circle_wrapper {
   border-radius: 100%;
@@ -146,7 +150,8 @@
   text-transform: inherit;
   text-wrap: pretty;
   margin-top: 1rem;
-  opacity: 0.6;
+  /* opacity: 0.6; */
+  font-family: kepler-std, serif !important;
 }
 .about_horizontal_image_column {
   grid-column-gap: 2rem;
@@ -183,6 +188,9 @@
 }
 .about_timeline_heading_wrapper.is_section_2 {
   transform: translate(-50%);
+}
+.is_section_1{
+  transform: translate(-18%);
 }
 .about_horizontal_image_wrap_big {
   max-width: 20.125rem;
@@ -249,6 +257,8 @@
     /* display: none; */
     position: absolute;
     left: -41px;
+  transform: translateX(0%);
+
   }
   .about_horizontal_text {
     width: 100%;
@@ -287,6 +297,9 @@
   .about_timeline_heading_wrapper.is_section_2 {
     transform: none;
   }
+  .is_section_1{
+      transform: none;
+}
   .about_horizontal_image_wrap_big {
     flex: 1;
   }
@@ -311,7 +324,7 @@
     align-items: flex-start;
   }
   .about_timeline_heading {
-    font-size: 1.5rem !important;
+    font-size: 4rem;
   }
   .about_progress_wrapper {
     display: none;
@@ -325,6 +338,10 @@
     justify-content: flex-start;
     align-items: flex-start;
   }
+  .is_section_1{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
   .about_progress_wrapper {
     display: none;
   }
