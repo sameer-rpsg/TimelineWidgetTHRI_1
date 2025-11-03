@@ -235,8 +235,7 @@ const Article = () => {
                       color: "transparent"
                     }}
                     sizes="100vw"
-                    
-                    src="https://www.hollywoodreporterindia.com/_next/image?url=https%3A%2F%2Fcdn.hollywoodreporterindia.com%2Fbms-new%2Farticle%2F-2024-10-09T10%253A38%253A12.915Z-Lead-New2.jpg&w=3840&q=75"
+                    src="https://www.hollywoodreporterindia.com/_next/image?url=https%3A%2F%2Fcdn.hollywoodreporterindia.com%2Fbms-new%2Feditor-images%2F-2024-10-09T08%253A21%253A15.179Z-2-State_N.jpg&w=3840&q=75"
                   />
                 </div>
               </div>
@@ -429,48 +428,12 @@ const Article = () => {
                       }}
                     >
                       <div className="Stories_relatedPostWrapper__sQzlS">
-                        <h2 className="Stories_relatedPostHeading__7h_ax">
-                          You may also like
-                        </h2>
+                      
                         <div
                           className="Stories_row__bZ032"
                           style={{ width: "100%" }}
                         >
-                          <a
-                            className="Stories_relatedPostCard__Chg_m"
-                            target="_blank"
-                            href="/lifestyle/fashion/meet-hanut-singh-the-designer-behind-beyonc-meryl-streep-and-alia-bhatts-favourite-jewels"
-                          >
-                            <div className="Stories_relatedPostImage__mctc0">
-                              <img
-                                alt="Jewellery Designer Hanut Singh"
-                                loading="lazy"
-                                decoding="async"
-                                data-nimg="fill"
-                                className="imgcover"
-                                sizes="100vw"
-                               
-                                src="https://www.hollywoodreporterindia.com/_next/image?url=https%3A%2F%2Fcdn.hollywoodreporterindia.com%2Farticle%2F2025-03-13T06%253A20%253A11.310Z-Lead%2520Hanut%2520Singh.jpg&w=3840&q=75"
-                                style={{
-                                  position: "absolute",
-                                  height: "100%",
-                                  width: "100%",
-                                  inset: 0,
-                                  objectFit: "cover",
-                                  color: "transparent"
-                                }}
-                              />
-                            </div>
-                            <div className="w-100 bg-red-100">
-                              <h3 className="Stories_category__PMzs5 mt-0 mb-1">
-                                Fashion
-                              </h3>
-                              <h3 className="Stories_card-title__yoKzB mb-0">
-                                Meet Hanut Singh — the Designer Behind Beyoncé,
-                                Meryl Streep and Alia Bhatt's Favourite Jewels
-                              </h3>
-                            </div>
-                          </a>
+                        
                           <a
                             className="Stories_relatedPostCard__Chg_m"
                             target="_blank"
@@ -553,83 +516,9 @@ const Article = () => {
                         it’s our relationship with them.
                       </span>
                     </p>
-                    <div
-                      style={{
-                        display: "flex",
-                        justifyContent: "center",
-                        width: "100%",
-                        margin: "20px 0"
-                      }}
-                    >
-                      <div
-                        className="Stories_image__Y76tU"
-                        style={{ width: "100%" }}
-                      >
-                        <img
-                          alt="Arjun Kapoor and Alia Bhatt in 2 States"
-                          loading="lazy"
-                          width={700}
-                          height={475}
-                          decoding="async"
-                          data-nimg={1}
-                          style={{
-                            color: "transparent",
-                            width: "100%",
-                            height: "auto"
-                          }}
-                          sizes="100vw"
-                          
-                          src="https://www.hollywoodreporterindia.com/_next/image?url=https%3A%2F%2Fcdn.hollywoodreporterindia.com%2Fbms-new%2Feditor-images%2F-2024-10-09T08%253A21%253A15.179Z-2-State_N.jpg&w=3840&q=75"
-                        />
-                        <div className="Stories_mainCaption__CKMoz">
-                          <span className="Stories_caption__pLYWo">
-                            Arjun Kapoor and Alia Bhatt in <i>2 States</i>.
-                          </span>
-                          <span className="Stories_courtesy__IorTZ" />
-                        </div>
-                      </div>
-                    </div>
-                    <p style={{ textAlign: "justify" }}>
-                      <span
-                        style={{ color: "rgb(0, 0, 0)", fontWeight: "bold" }}
-                      >
-                        10. 2 States (2014)
-                      </span>
-                    </p>
-                    <p style={{ textAlign: "justify" }} />
-                    <p style={{ textAlign: "justify" }}>
-                      <span style={{ color: "rgb(0, 0, 0)" }}>
-                        Alia Bhatt is a charming hybrid of dutiful daughter and
-                        bold girlfriend in Abhishek Varman’s cross-cultural
-                        romantic comedy. This film adaptation of Chetan Bhagat’s
-                        book isn’t as effective as its spiritual sibling,{" "}
-                      </span>
-                      <span
-                        style={{ color: "rgb(0, 0, 0)", fontStyle: "italic" }}
-                      >
-                        Rocky Aur Rani Kii Prem Kahaani
-                      </span>
-                      <span style={{ color: "rgb(0, 0, 0)" }}>
-                        {" "}
-                        (2023), but it worked wonders as a showcase for a
-                        versatile actor realising her potential in a breakout
-                        year. As Ananya Swaminathan, Bhatt nails the social
-                        awakening of an MBA student from a conservative Tamil
-                        Brahmin family who discovers freedom at IIM Ahmedabad.
-                        She speaks, teases, grins, makes her boyfriend (Arjun
-                        Kapoor) squirm and fumble, and generally demands
-                        attention in a way that implies that she is enjoying her
-                        newfound romantic and sexual agency. When juxtaposed
-                        with her poised but diminutive behaviour back home in
-                        Chennai with her parents, Bhatt’s performance transcends
-                        the average romcom template. She radiates heroine energy
-                        without overcooking both the traditionalism and the
-                        open-mindedness of her character. It’s also the first of
-                        multiple turns where Bhatt plays the relatively grounded
-                        partner in a relationship that fights for generational
-                        approval.{" "}
-                      </span>
-                    </p>
+                
+                   
+              
                     <div
                       style={{
                         display: "flex",

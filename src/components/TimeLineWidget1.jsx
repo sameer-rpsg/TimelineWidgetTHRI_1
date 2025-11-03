@@ -232,7 +232,7 @@ const TimeLineWidget1 = () => {
                           className={styles.about_horizontal_artwork_wrapper}
                         >
                           <img
-                            src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2017/03/10/555375-badrinath1.jpg"
+                            src="https://occ-0-8407-92.1.nflxso.net/dnm/api/v6/Z-WHgqd_TeJxSuha8aZ5WpyLcX8/AAAABRVzfnPq2pGIvr1KQuSg1oV38QjifLrk6s5CFccaxJMdb-KkVt9foj3gg1ekDA4GMhJYSCdsDK3qRPUhYtdW10g-XEIX7o77-4aF.jpg?r=8db"
                             loading="lazy"
                             width="390"
                             height="260"
