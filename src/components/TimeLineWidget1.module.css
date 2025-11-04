@@ -18,7 +18,7 @@
 .about_horizontal_container {
   z-index: 5;
   height: 100%;
-  padding: 5rem 5vw !important;
+  padding: 0 !important;
   position: relative;
 }
 .about_horizontal_slide {

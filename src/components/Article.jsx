@@ -861,39 +861,7 @@ const Article = () => {
                     </h3>
                   </div>
                 </a>
-                <a
-                  className="side-card h-par updated"
-                  href="/lists/all/suriyas-10-best-performances-ranked"
-                >
-                  <div className="image h100">
-                    <img
-                      alt=""
-                      loading="lazy"
-                      decoding="async"
-                      data-nimg="fill"
-                      className="imgcover"
-                      sizes="100vw"
-                      
-                      src="https://www.hollywoodreporterindia.com/_next/image?url=https%3A%2F%2Fcdn.hollywoodreporterindia.com%2Farticle%2F-2024-11-14T05%253A23%253A19.144Z-1Surya-Lead.jpg&w=3840&q=75"
-                      style={{
-                        position: "absolute",
-                        height: "100%",
-                        width: "100%",
-                        inset: 0,
-                        color: "transparent"
-                      }}
-                    />
-                  </div>
-                  <div className="content">
-                    <div className="d-flex flex-columnn align-items-center gap-2">
-                      <span className="category">Lists</span>
-                      <span className="timeline">NOV 14, 2024</span>
-                    </div>
-                    <h3 className="card-title">
-                      Suriya’s 10 Best Performances, Ranked{" "}
-                    </h3>
-                  </div>
-                </a>
+           
               </div>
             </div>
             <div className="ad-flex-all">
